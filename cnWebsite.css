@@ -13,7 +13,20 @@ h2 {
     color: #04f5d1;
 }
 
-#btns a {
+#btns {
+    float: left;
+    width: 100%;
+}
+
+.btn {
+    width: 25%;
+    height: fit-content;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.btn a {
     border-style: none;
     border-radius: 10px;
     padding: 20px;
@@ -28,12 +41,12 @@ h2 {
     text-decoration: none;
 }
 
-#btns a:hover {
+.btn a:hover {
     background-color: #36debf;
     color: #242424;
 }
 
-#btns a:active {
+.btn a:active {
     background-color: #36debf;
     color: #000;
 }
@@ -76,11 +89,6 @@ h2 {
     font-size: 50px;
     font-weight: 100;
     margin: 0;
-}
-
-#btns {
-    width: fit-content;
-    margin: auto;
 }
 
 #main {
