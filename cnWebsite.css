@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background-color: #3d3e46;
+    font-family: "Montserrat SemiBold", monospace;
+}
+
+h1 {
+    font-family: "Permanent Marker", monospace;
+}
+
+h2 {
+    font-family: "Permanent Marker", monospace;
+    color: #04f5d1;
+}
+
+#btns a {
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #242424;
+    /*box-shadow: 1px 1px 8px #000;*/
+    color: #36debf;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    font-family: "Permanent Marker", monospace;
+    float: left;
+    text-decoration: none;
+}
+
+#btns a:hover {
+    background-color: #36debf;
+    color: #242424;
+}
+
+#btns a:active {
+    background-color: #36debf;
+    color: #000;
+}
+
+#referenceLink a {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #242424;
+    /*box-shadow: 1px 1px 8px #000;*/
+    color: #36debf;
+    margin: 20px 0;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+    font-family: "Permanent Marker", monospace;
+    float: left;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#referenceLink a:hover {
+    background-color: #36debf;
+    color: #242424;
+}
+
+#referenceLink a:active {
+    background-color: #36debf;
+    color: #000;
+}
+
+#units {
+    margin-top: 20px;
+    flex: auto;
+}
+
+#units > h1 {
+    text-align: center;
+    color: #04f5d1;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#btns {
+    width: fit-content;
+    margin: auto;
+}
+
+#main {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#text > h1 {
+    text-align: center;
+    color: #04f5d1;
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+}
+
+#img {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutMe {
+    background-image: url(aboutMe.jpg);
+}
+
+.U1O1 {
+    background-image: url(U1O1.jpg);
+}
+
+.U1O2 {
+    background-image: url(U1O2.jpg);
+}
+
+.U1O3 {
+    background-image: url(U1O3.jpg);
+}
+
+.U2O1 {
+    background-image: url(U2O1.jpg);
+}
+
+.referencesPage {
+    background-image: url(referencesPage.jpg);
+}
+
+#text {
+    padding: 0 20%;
+}
+
+.box {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    /*box-shadow: 1px 1px 8px #000;*/
+    padding: 12px;
+    font-size: 14px;
+}
+
+.box > h1 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 45px;
+}
+
+.box > p:first-child {
+    margin-top: 0;
+}
+
+.box > p:last-child {
+    margin-bottom: 0;
+}
+
+#nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #242424;
+    box-shadow: #000 0 2px 10px;
+}
+
+#logo {
+    width: fit-content;
+    height: 80px;
+}
+
+#logo > h1 {
+    margin: 10px 0 0 20px;
+    float: left;
+    color: #04f5d1;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#logo > img {
+    height: 74px;
+    width: auto;
+    margin: 3px;
+    float: left;
+}
+
+#navBtns {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #36debf;
+    text-align: center;
+    padding: 30.5px 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+li a:hover {
+    background-color: #36debf;
+    color: #242424;
+}
