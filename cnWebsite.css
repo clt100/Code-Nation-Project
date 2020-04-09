@@ -16,6 +16,7 @@ h2 {
 #btns {
     float: left;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -110,6 +111,26 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#aboutMeContainer {
+    display: flex;
+}
+
+#me {
+    background-image: url(me.png);
+    width: 368px;
+    height: 368px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #242424;
+    border-radius: 50%;
+}
+
+#aboutMe {
+    width: 70%;
+    margin-left: 20px;
 }
 
 .aboutMe {
